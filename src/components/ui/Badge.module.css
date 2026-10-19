@@ -1,0 +1,8 @@
+.badge {
+  display: inline-block; padding: 2px var(--space-3); border-radius: var(--radius-pill);
+  font-size: var(--text-sm); font-weight: 600; white-space: nowrap;
+}
+.success { background: var(--color-success-bg); color: var(--color-success-fg); }
+.warning { background: var(--color-warning-bg); color: var(--color-warning-fg); }
+.neutral { background: var(--color-neutral-bg); color: var(--color-neutral-fg); }
+.info    { background: var(--color-info-bg);    color: var(--color-info-fg); }

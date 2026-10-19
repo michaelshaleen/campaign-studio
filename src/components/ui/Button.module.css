@@ -1,0 +1,14 @@
+.button {
+  font: inherit; font-weight: 600; font-size: var(--text-sm);
+  min-height: 44px; padding: 0 var(--space-5);
+  border-radius: var(--radius-sm); border: 1px solid transparent; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2);
+  text-decoration: none; transition: background 120ms ease;
+}
+.button:disabled { opacity: 0.55; cursor: not-allowed; }
+.primary { background: var(--color-brand); color: #fff; }
+.primary:hover:not(:disabled) { background: var(--color-brand-strong); }
+.secondary { background: var(--color-surface); color: var(--color-ink); border-color: var(--color-border); }
+.secondary:hover:not(:disabled) { background: var(--color-canvas); }
+.ghost { background: transparent; color: var(--color-ink); }
+.ghost:hover:not(:disabled) { background: var(--color-neutral-bg); }

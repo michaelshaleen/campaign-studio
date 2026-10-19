@@ -1,0 +1,8 @@
+.titleRow { display: flex; flex-wrap: wrap; gap: var(--space-4); align-items: center; justify-content: space-between; margin-bottom: var(--space-5); }
+.title { margin: 0; font-size: var(--text-xl); }
+.cta {
+  background: var(--color-brand); color: #fff; font-weight: 600; text-decoration: none;
+  min-height: 44px; padding: 0 var(--space-5); border-radius: var(--radius-sm);
+  display: inline-flex; align-items: center;
+}
+.cta:hover { background: var(--color-brand-strong); }
